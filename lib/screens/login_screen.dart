@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Icons.email,
                 color: Colors.white,
               ),
-              hintText: 'Enter your Email',
+              hintText: 'Ingresa tu correo',
               hintStyle: kHintTextStyle,
             ),
           ),
@@ -71,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Icons.lock,
                 color: Colors.white,
               ),
-              hintText: 'Enter your Password',
+              hintText: 'Ingresa tu contraseña',
               hintStyle: kHintTextStyle,
             ),
           ),
@@ -87,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
         onPressed: () => print('Forgot Password Button Pressed'),
         padding: EdgeInsets.only(right: 0.0),
         child: Text(
-          'Forgot Password?',
+          'No recuerdas tu contraseña?',
           style: kLabelStyle,
         ),
       ),
@@ -134,7 +134,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         color: Colors.white,
         child: Text(
-          'LOGIN',
+          'INGRESAR',
           style: TextStyle(
             color: Color(0xFF527DAA),
             letterSpacing: 1.5,
@@ -151,7 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Column(
       children: <Widget>[
         Text(
-          '- OR -',
+          '- O -',
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.w400,
@@ -220,7 +220,7 @@ class _LoginScreenState extends State<LoginScreen> {
         text: TextSpan(
           children: [
             TextSpan(
-              text: 'Don\'t have an Account? ',
+              text: 'No tienes una cuenta? ',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
@@ -228,7 +228,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
             TextSpan(
-              text: 'Sign Up',
+              text: 'Registrate',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
