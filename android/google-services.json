@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175293847098",
+    "firebase_url": "https://dicomerdatashetcode.firebaseio.com",
+    "project_id": "dicomerdatashetcode",
+    "storage_bucket": "dicomerdatashetcode.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175293847098:android:040e9c160dd6372c12c703",
+        "android_client_info": {
+          "package_name": "com.example.flutter_login_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175293847098-931cioirkod99rr957tbfsichhe0esod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALkx9tDZ1oO5FJ7OiofPFgFOdwBhgTmwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175293847098-931cioirkod99rr957tbfsichhe0esod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
